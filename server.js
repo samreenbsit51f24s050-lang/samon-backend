@@ -237,7 +237,4 @@ app.post("/reset-password", async (req, res) => {
   }
 
 });
-// SERVER START
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
-});
+module.exports=app;
